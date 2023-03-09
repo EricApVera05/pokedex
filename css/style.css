@@ -1,14 +1,120 @@
-body {
+.index {
     margin: 0;
+    background-image: url(../SMX2-M12-A13-Pokedex-imagenes/kanto-map.jpeg);
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+  }
+body {
+    margin: 1;
+    background-color: rgb(235, 232, 226);
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+
+.cindaquil {
+    background-color: transparent;
+    position: absolute; top: 465px; left: 100px
+}
+.titulo-C{
+    text-align: center;
+}
+.cindaquil-imag{
+    width: 420px; height:390px
+}
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+}
+.boton-pokemons {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+
+.fuego{
+    border: 1px solid orange;
+    padding: 4px;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fantasma {
+    border: 1px solid rgb(151, 41, 151);
+    padding: 4px;
+    background-color: rgb(146, 34, 146);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.psiquico {
+    border: 1px solid violet;
+    padding: 4px;
+    background-color: violet;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.volador{
+    border: 1px solid aqua;
+    padding: 4px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mew {
+    background-color: transparent;
+    position: absolute; top: 505px; left: 100px
+  }
+.gengar {
+    background-color: transparent;
+    position: absolute; top: 485px; left: 100px
+  }
+.rayquaza {
+    background-color: transparent;
+    position: absolute; top: 525px; left: 100px
+  }
+.pokedex {
+  position: absolute;
+   top: 150px; left: 50px;
+   width: 400px; height:300px
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  img {
-    width: 100%;
-    height: 100%;
-    position: absolute; 
-    top: 50px; left: 50px;
+  li {
+    margin: 5px;
   }
-  .boton {
-    background-color: transparent;
-    position: absolute; top: 500px; left: 100px
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .titulo{
+    position: absolute; top: 50px; left: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
