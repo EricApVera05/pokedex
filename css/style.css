@@ -2,8 +2,10 @@
     margin: 0;
     background-image: url(../SMX2-M12-A13-Pokedex-imagenes/kanto-map.jpeg);
     background-size: cover;
-    font-family: 'Press Start 2P', cursive;
-    font-size: large;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
   }
 /*Modifica la imagen de fondo, el tamaño de la imagen de fondo (si es completa o no) cambia la fuente y el tamaño dentro de la pagina de inicio.*/
 body {
@@ -12,6 +14,7 @@ body {
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
     font-size: large;
+
 }
 /*Modifica el margen, el color de fondo, la fuente y el tamaño de la letra dentro del body pero sin contar con el body de index.html ya que para ese le hemos puesto un class para excluirlo de este.*/
 .cindaquil {
@@ -108,7 +111,7 @@ body {
   }
 /*Establece la posicion de la imagen y su tamaño utilizando el ancho y el alto*/
   ul {
-    list-style: circle inside;
+    list-style: none;
     margin: 0;
     padding: 0;
   }
@@ -137,12 +140,18 @@ body {
     body {
       font-size: medium;
         }
+        .titulo{
+          position: absolute; top: 50px; left: 250px;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          padding: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
         p{
           font-size: medium;
-        }
-        .texto-encima{
-          top:30%;
-          font-size: 30px;
         }
         h1{
         font-size: medium;
@@ -150,36 +159,76 @@ body {
         h2{
           font-size: medium;
         }
-        .spoilers{
-          font-size: medium;
+        .pokedex {
+          position: absolute;
+           top: 130px; left: 50px;
+           width: 200px; height:200px
+          }
+          .mew {
+            background-color: transparent;
+            position: absolute; top: 360px; left: 100px
+          }
+        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
+        .gengar {
+            background-color: transparent;
+            position: absolute; top: 380px; left: 100px
+          }
+        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
+        .rayquaza {
+            background-color: transparent;
+            position: absolute; top: 400px; left: 100px
+          }
+          .cindaquil {
+            background-color: transparent;
+            position: absolute; top: 340px; left: 100px
         }
     }
     /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
   @media screen and (min-width: 700px) and (max-width: 900px) {
     body {
-        font-size: large;
+      font-size: medium;
         }
-        p {
-         font-size: large;
+        .titulo{
+          position: absolute; top: 50px; left: 310px;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          padding: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
         }
-        h3{
-         font-size: large;
-        }
-        h2{
-          font-size: large;
+        p{
+          font-size: medium;
         }
         h1{
-         font-size: large;
+        font-size: medium;
         }
-        .texto-encima{
-          top:40%;
-          font-size: 40px;
+        h2{
+          font-size: medium;
         }
-        table{
-            width: fit-content;
-        }
-        .spoilers{
-          font-size: large;
+        .pokedex {
+          position: absolute;
+           top: 130px; left: 50px;
+           width: 250px; height:250px
+          }
+          .mew {
+            background-color: transparent;
+            position: absolute; top:400px; left: 100px
+          }
+        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
+        .gengar {
+            background-color: transparent;
+            position: absolute; top: 420px; left: 100px
+          }
+        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
+        .rayquaza {
+            background-color: transparent;
+            position: absolute; top: 440px; left: 100px
+          }
+          .cindaquil {
+            background-color: transparent;
+            position: absolute; top: 380px; left: 100px
         }
   }
    /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
