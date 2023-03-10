@@ -133,3 +133,53 @@ body {
     border-bottom-right-radius: 10px;
   }
   /*Establece su posición, el color de fondo, el color de letra, y le añade bordes redondos.*/
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: medium;
+        }
+        p{
+          font-size: medium;
+        }
+        .texto-encima{
+          top:30%;
+          font-size: 30px;
+        }
+        h1{
+        font-size: medium;
+        }
+        h2{
+          font-size: medium;
+        }
+        .spoilers{
+          font-size: medium;
+        }
+    }
+    /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
+  @media screen and (min-width: 700px) and (max-width: 900px) {
+    body {
+        font-size: large;
+        }
+        p {
+         font-size: large;
+        }
+        h3{
+         font-size: large;
+        }
+        h2{
+          font-size: large;
+        }
+        h1{
+         font-size: large;
+        }
+        .texto-encima{
+          top:40%;
+          font-size: 40px;
+        }
+        table{
+            width: fit-content;
+        }
+        .spoilers{
+          font-size: large;
+        }
+  }
+   /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
