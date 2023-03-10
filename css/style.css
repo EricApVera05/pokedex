@@ -89,6 +89,15 @@ body {
     border-bottom-right-radius: 10px;
 }
 /*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
+.acero{
+  border: 1px solid gainsboro;
+  padding: 4px;
+  background-color: gainsboro;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .mew {
     background-color: transparent;
     position: absolute; top: 505px; left: 100px
@@ -136,6 +145,33 @@ body {
     border-bottom-right-radius: 10px;
   }
   /*Establece su posición, el color de fondo, el color de letra, y le añade bordes redondos.*/
+.evolucion{
+  position: absolute; top: 90px; left: 850px;
+  color: black;
+}
+  .column-12 {
+  float: left;
+  margin-right: -100%;
+  width: 85.49%;
+  list-style: none;
+}
+.primero {
+  position: absolute; top: 150px; left: 550px;
+
+}
+.medio{
+  list-style: none;
+  position: absolute; top: 150px; left: 870px;
+}
+.ultimo{
+  list-style: none;
+  position: absolute; top: 150px; left: 1150px;
+}
+.match{
+  color: black;
+}
+
+
   @media screen and (max-width: 700px) {
     body {
       font-size: medium;
