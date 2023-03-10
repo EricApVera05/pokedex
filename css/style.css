@@ -188,19 +188,19 @@ body {
 }
 
 .quilava-index{
-  position: absolute; top: -170px; left: 450px;
+  position: absolute; top: 450px; left: 550px;
   width: 170px; height:180px
 }
 .typhlosion-index{
-  position: absolute; top: -180px; left: 670px;
+  position: absolute; top: 450px; left: 770px;
   width: 170px; height:180px
 }
 .cobalion-index{
-  position: absolute; top: -190px; left: 870px;
+  position: absolute; top: 450px; left: 990px;
   width: 170px; height:180px
 }
 .emboar-index{
-  position: absolute; top: -210px; left: 1120px;
+  position: absolute; top: 450px; left: 1200px;
   width: 170px; height:180px
 }
 
