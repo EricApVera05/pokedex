@@ -5,6 +5,7 @@
     font-family: 'Press Start 2P', cursive;
     font-size: large;
   }
+/*Modifica la imagen de fondo, el tamaño de la imagen de fondo (si es completa o no) cambia la fuente y el tamaño dentro de la pagina de inicio.*/
 body {
     margin: 1;
     background-color: rgb(235, 232, 226);
@@ -12,21 +13,25 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: large;
 }
-
+/*Modifica el margen, el color de fondo, la fuente y el tamaño de la letra dentro del body pero sin contar con el body de index.html ya que para ese le hemos puesto un class para excluirlo de este.*/
 .cindaquil {
     background-color: transparent;
     position: absolute; top: 465px; left: 100px
 }
+/*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
 .titulo-C{
     text-align: center;
 }
+/*indica que el titulo del html de los pokemon se alinee al centro*/
 .cindaquil-imag{
     width: 420px; height:390px
 }
+/*Indica el ancho y alto que tendrá la imagen de los pokemon*/
 .centrar-boton {
     display: flex;
     justify-content: center;
 }
+/*Centra el boton*/
 .boton-pokemons {
     background-color: rgb(255, 0, 0);
     color: white;
@@ -40,7 +45,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: large;
 }
-
+/*Establece el color de fondo, el color de letra, los bordes del fondo, el tamaño del borde respecto a la letra, el color del borde, la fuente que tendrá y el tamaño de la letra.*/
 .fuego{
     border: 1px solid orange;
     padding: 4px;
@@ -50,6 +55,7 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
 .fantasma {
     border: 1px solid rgb(151, 41, 151);
     padding: 4px;
@@ -59,6 +65,7 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
 .psiquico {
     border: 1px solid violet;
     padding: 4px;
@@ -68,6 +75,7 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
 .volador{
     border: 1px solid aqua;
     padding: 4px;
@@ -77,37 +85,43 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
 .mew {
     background-color: transparent;
     position: absolute; top: 505px; left: 100px
   }
+/*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
 .gengar {
     background-color: transparent;
     position: absolute; top: 485px; left: 100px
   }
+/*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
 .rayquaza {
     background-color: transparent;
     position: absolute; top: 525px; left: 100px
   }
+/*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
 .pokedex {
   position: absolute;
    top: 150px; left: 50px;
    width: 400px; height:300px
   }
-
+/*Establece la posicion de la imagen y su tamaño utilizando el ancho y el alto*/
   ul {
-    list-style: none;
+    list-style: circle inside;
     margin: 0;
     padding: 0;
   }
-  
+  /*Establece el formato de la lista*/
   li {
     margin: 5px;
   }
+  /*Establece el margen que tendrán los */
   a {
     text-decoration: none;
     color: white;
   }
+  /*Le elimina el subrayado al enlace y le cambia el color a blanco*/
   .titulo{
     position: absolute; top: 50px; left: 650px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -118,3 +132,4 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+  /*Establece su posición, el color de fondo, el color de letra, y le añade bordes redondos.*/
