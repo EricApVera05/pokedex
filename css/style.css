@@ -98,6 +98,7 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+/*Establece el color de fondo, el tamaño del borde y hace los bordes redondos*/
 .mew {
     background-color: transparent;
     position: absolute; top: 505px; left: 100px
@@ -167,9 +168,11 @@ body {
   list-style: none;
   position: absolute; top: 150px; left: 1150px;
 }
+/*Establece la posicion donde estará el pokemon ya sea primero, ultimo o se encuentre en el medio de las dos opciones.*/
 .match{
   color: black;
 }
+/*Establece el color del texto de las evoluciones de los pokemons*/
 .cindaquil-index{
   position: absolute; top: -250px; left: 450px;
   width: 170px; height:180px
@@ -203,7 +206,7 @@ body {
   position: absolute; top: 450px; left: 1200px;
   width: 170px; height:180px
 }
-
+/*Establece el tamaño de la imagen, junto a la posicion en la cual estará*/
   @media screen and (max-width: 700px) {
     body {
       font-size: medium;
@@ -229,27 +232,40 @@ body {
         }
         .pokedex {
           position: absolute;
-           top: 130px; left: 50px;
-           width: 200px; height:200px
+           top: 130px; left: 20px;
+           width: 150px; height:150px
           }
-          .mew {
-            background-color: transparent;
-            position: absolute; top: 360px; left: 100px
-          }
-        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
-        .gengar {
-            background-color: transparent;
-            position: absolute; top: 380px; left: 100px
-          }
-        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
-        .rayquaza {
-            background-color: transparent;
-            position: absolute; top: 400px; left: 100px
-          }
-          .cindaquil {
-            background-color: transparent;
-            position: absolute; top: 340px; left: 100px
+        .cindaquil-index{
+            position: absolute; top: -280px; left: 65px;
+            width: 100px; height:110px
         }
+        .gengar-index{
+            position: absolute; top: -300px; left: 180px;
+            width: 100px; height:110px
+        }
+        .mew-index{
+            position: absolute; top: -310px; left: 280px;
+            width: 100px; height:110px
+        }
+        .rayquaza-index{
+            position: absolute; top: -320px; left: 390px;
+            width: 100px; height:110px
+        }
+        .quilava-index{
+          position: absolute; top: 320px; left: 170px;
+          width: 100px; height:110px
+        }
+        .typhlosion-index{
+          position: absolute; top: 320px; left: 270px;
+          width: 100px; height:110px
+        }
+        .cobalion-index{
+          position: absolute; top: 320px; left: 370px;
+          width: 100px; height:110px
+        }
+        .emboar-index{
+          position: absolute; top: 320px; left: 470px;
+          width: 100px; height:110px
     }
     /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
   @media screen and (min-width: 700px) and (max-width: 900px) {
@@ -277,26 +293,40 @@ body {
         }
         .pokedex {
           position: absolute;
-           top: 130px; left: 50px;
-           width: 250px; height:250px
+           top: 130px; left: 20px;
+           width: 200px; height:200px
           }
-          .mew {
-            background-color: transparent;
-            position: absolute; top:400px; left: 100px
-          }
-        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
-        .gengar {
-            background-color: transparent;
-            position: absolute; top: 420px; left: 100px
-          }
-        /*Establece que el color de fondo del enlace al html del pokemon sea transparente y modifica su posicion*/
-        .rayquaza {
-            background-color: transparent;
-            position: absolute; top: 440px; left: 100px
-          }
-          .cindaquil {
-            background-color: transparent;
-            position: absolute; top: 380px; left: 100px
+        .cindaquil-index{
+            position: absolute; top: -280px; left: 65px;
+            width: 100px; height:110px
         }
+        .gengar-index{
+            position: absolute; top: -300px; left: 180px;
+            width: 100px; height:110px
+        }
+        .mew-index{
+            position: absolute; top: -310px; left: 280px;
+            width: 100px; height:110px
+        }
+        .rayquaza-index{
+            position: absolute; top: -320px; left: 390px;
+            width: 100px; height:110px
+        }
+        .quilava-index{
+          position: absolute; top: 320px; left: 170px;
+          width: 100px; height:110px
+        }
+        .typhlosion-index{
+          position: absolute; top: 320px; left: 270px;
+          width: 100px; height:110px
+        }
+        .cobalion-index{
+          position: absolute; top: 320px; left: 370px;
+          width: 100px; height:110px
+        }
+        .emboar-index{
+          position: absolute; top: 320px; left: 470px;
+          width: 100px; height:110px
+    }
   }
    /*Establece un tamaño definido a los elementos en un numero determinado de pixeles */
